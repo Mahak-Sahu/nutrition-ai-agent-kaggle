@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Food Nutrition AI Agent (Python + Gemini)</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>🥦 Food Nutrition AI Agent</h1>
+    <p class="subtitle">
+      Type what you ate, and I will estimate the nutrition and explain it in simple English.
+    </p>
+
+    <div class="chat-box" id="chat-box">
+      <div class="message bot">
+        <div class="message-content">
+          Hi! I’m your Nutrition Buddy 🤖🥗<br />
+          Tell me what you ate, for example:<br />
+          <em>"I ate 2 chapatis, 1 bowl of dal and a salad"</em>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <textarea
+        id="user-input"
+        placeholder="Write here... e.g. I ate 2 chapatis, 1 bowl of dal and a salad"
+      ></textarea>
+      <button id="send-btn">Send</button>
+    </div>
+
+    <p class="disclaimer">
+      ⚠️ I am an AI assistant, not a doctor. For medical or diet advice, please talk to a professional.
+    </p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
